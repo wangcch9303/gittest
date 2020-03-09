@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wangcan</groupId>
 	<artifactId>springboot-test01</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 <distributionManagement>
     <repository>
         <id>nexus-release</id>
