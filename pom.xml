@@ -6,7 +6,18 @@
 	<groupId>com.wangcan</groupId>
 	<artifactId>springboot-test01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+<distributionManagement>
+    <repository>
+        <id>nexus-release</id>
+        <name>nexus release</name>
+        <url>http://localhost:8088/nexus-2.14.5-02/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshot</id>
+        <name>nexus snapshot</name>
+        <url>http://localhost:8088/nexus-2.14.5-02/content/repositories/snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 	<!-- 父级项目 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
